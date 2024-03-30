@@ -2,7 +2,7 @@
 Программа реализации класса геометрических фигур Прямоугольник
 Версия 1.1
 """
-from src.figure import Figure
+from src.Figure import Figure
 
 
 class Rectangle(Figure):

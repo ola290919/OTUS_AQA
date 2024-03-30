@@ -2,7 +2,7 @@
 Программа реализации класса геометрических фигур Квадрат
 Версия 1.1
 """
-from src.rectangle import Rectangle
+from src.Rectangle import Rectangle
 
 
 class Square(Rectangle):
