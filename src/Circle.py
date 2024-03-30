@@ -3,7 +3,7 @@
 Версия 1.1
 """
 import math
-from src.figure import Figure
+from src.Figure import Figure
 
 
 class Circle(Figure):
@@ -15,11 +15,9 @@ class Circle(Figure):
             raise ValueError("радиус круга должен быть положительным числом")
         self.radius = radius
 
-
     def get_perimeter(self):
         """периметр Круга"""
         return math.pi * self.radius * 2
-
 
     def get_area(self):
         """площадь Круга"""

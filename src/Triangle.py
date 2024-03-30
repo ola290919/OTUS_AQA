@@ -2,7 +2,7 @@
 Программа реализации класса геометрических фигур Треугольник
 Версия 1.1
 """
-from src.figure import Figure
+from src.Figure import Figure
 
 
 class Triangle(Figure):
@@ -19,7 +19,6 @@ class Triangle(Figure):
     def get_perimeter(self):
         """периметр Треугольника"""
         return self.side_a + self.side_b + self.side_c
-
 
     def get_area(self):
         """площадь Треугольника"""
