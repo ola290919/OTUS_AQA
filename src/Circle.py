@@ -5,7 +5,6 @@
 import math
 from src.Figure import Figure
 
-
 class Circle(Figure):
     """класс Круг"""
 
@@ -22,3 +21,4 @@ class Circle(Figure):
     def get_area(self):
         """площадь Круга"""
         return math.pi * (self.radius ** 2)
+
