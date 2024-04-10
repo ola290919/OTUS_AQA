@@ -7,19 +7,19 @@ from abc import ABC, abstractmethod
 
 class Figure(ABC):
     """базовый класс Фигура"""
-
     def __init__(self, name):
         self.name = name
 
     @abstractmethod
     def get_area(self):
         """функция расчета площади фигуры"""
-        pass
+        raise NotImplementedError
 
     @abstractmethod
     def get_perimeter(self):
         """функция расчета периметра фигуры"""
-        pass
+        raise NotImplementedError
+
 
     def add_area(self, other_figure):
         """функция расчета суммы площадей фигур"""
